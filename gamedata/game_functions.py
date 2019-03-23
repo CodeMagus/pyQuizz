@@ -70,4 +70,5 @@ def check_answer(player_choice, question, answers):
 
 
 def clear_console():
+    """Clean the console"""
     os.system("cls")
