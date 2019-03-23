@@ -19,4 +19,3 @@ for question in anime_quiz:
     clear_console()
 
 print("{}{}".format(SCORE_DISPLAY_MESSAGE[LANG_CODE], score))
-

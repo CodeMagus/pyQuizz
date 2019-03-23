@@ -1,5 +1,6 @@
 import random
 import time
+import os
 from gamedata.game_strings import *
 from gamedata.parameters import *
 from gamedata.quizzes import *
@@ -66,3 +67,7 @@ def get_player_input():
 def check_answer(player_choice, question, answers):
     selected_answer = answers[player_choice]
     return selected_answer == question.answer
+
+
+def clear_console():
+    os.system("cls")
